@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Radio - Discord-Integrated Voice Communication</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-broadcast-tower"></i>
+                <span>Nexus Radio</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#download">Download</a></li>
+                <li><a href="#support">Support</a></li>
+            </ul>
+            <button class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Professional Voice Communication
+                    <span class="gradient-text">For Discord Communities</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Nexus Radio brings radio-quality voice communication to your Discord servers with 
+                    professional-grade features, game overlay support, and seamless integration.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#download" class="btn btn-primary">
+                        <i class="fas fa-download"></i>
+                        Download Now
+                    </a>
+                    <a href="#features" class="btn btn-secondary">
+                        <i class="fas fa-info-circle"></i>
+                        Learn More
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">0ms</span>
+                        <span class="stat-label">Latency</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">8kHz</span>
+                        <span class="stat-label">Audio Quality</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">∞</span>
+                        <span class="stat-label">Servers</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="app-preview">
+                    <div class="app-window">
+                        <div class="window-header">
+                            <div class="window-controls">
+                                <span class="control close"></span>
+                                <span class="control minimize"></span>
+                                <span class="control maximize"></span>
+                            </div>
+                            <div class="window-title">Nexus Radio</div>
+                        </div>
+                        <div class="window-content">
+                            <div class="app-interface">
+                                <div class="interface-header">
+                                    <h3>Discord Voice Communication</h3>
+                                    <span class="status connected">Connected</span>
+                                </div>
+                                <div class="channel-list">
+                                    <div class="channel active">
+                                        <i class="fas fa-radio"></i>
+                                        <span>Channel 1</span>
+                                    </div>
+                                    <div class="channel">
+                                        <i class="fas fa-radio"></i>
+                                        <span>Channel 2</span>
+                                    </div>
+                                    <div class="channel emergency">
+                                        <i class="fas fa-exclamation-triangle"></i>
+                                        <span>Emergency</span>
+                                    </div>
+                                </div>
+                                <div class="ptt-button">
+                                    <i class="fas fa-microphone"></i>
+                                    <span>Push to Talk</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Powerful Features</h2>
+                <p>Everything you need for professional voice communication</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fab fa-discord"></i>
+                    </div>
+                    <h3>Discord Integration</h3>
+                    <p>Seamlessly connect to your Discord servers with automatic server discovery and per-server radio configurations.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>Game Overlay</h3>
+                    <p>Lightweight, draggable overlay that works with most games. Stay connected without leaving your game.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                    <h3>Push-to-Talk</h3>
+                    <p>Professional push-to-talk functionality with customizable hotkeys and instant voice transmission.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-broadcast-tower"></i>
+                    </div>
+                    <h3>Multi-Channel</h3>
+                    <p>Support for multiple communication channels including dedicated emergency channels for critical situations.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-sliders-h"></i>
+                    </div>
+                    <h3>Audio Controls</h3>
+                    <p>Advanced audio settings with device selection, volume controls, and radio-quality audio processing.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Server-Specific</h3>
+                    <p>Configure different radio settings for each Discord server. IP addresses, ports, and channels per server.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>How It Works</h2>
+                <p>Get started in minutes with our simple setup process</p>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Download & Run</h3>
+                        <p>Download the self-contained executable. No installation required - just double-click and run.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Connect Discord</h3>
+                        <p>Login with your Discord token to automatically discover your servers and configure radio settings.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Configure & Connect</h3>
+                        <p>Select your active Discord server, configure radio settings, and connect to start communicating.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Use Overlay</h3>
+                        <p>Enable the game overlay for in-game communication. Drag to position and use push-to-talk seamlessly.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots Section -->
+    <section class="screenshots">
+        <div class="container">
+            <div class="section-header">
+                <h2>See It In Action</h2>
+                <p>Professional interface designed for gamers and communities</p>
+            </div>
+            <div class="screenshot-grid">
+                <div class="screenshot-card">
+                    <div class="screenshot-image main-interface">
+                        <div class="interface-mockup">
+                            <div class="mockup-header">Main Interface</div>
+                            <div class="mockup-content">
+                                <div class="mockup-channels">
+                                    <div class="mockup-channel">Discord Server: Gaming Community</div>
+                                    <div class="mockup-channel active">Channel 1 - General</div>
+                                    <div class="mockup-channel">Channel 2 - Team A</div>
+                                    <div class="mockup-channel emergency">Emergency Channel</div>
+                                </div>
+                                <div class="mockup-controls">
+                                    <button class="mockup-btn">Connect</button>
+                                    <button class="mockup-btn primary">Push to Talk</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Main Interface</h3>
+                    <p>Clean, professional interface with Discord integration and easy-to-use controls</p>
+                </div>
+                <div class="screenshot-card">
+                    <div class="screenshot-image overlay-interface">
+                        <div class="overlay-mockup">
+                            <div class="overlay-header">Nexus Radio</div>
+                            <div class="overlay-content">
+                                <div class="overlay-info">
+                                    <span>Server: Gaming Community</span>
+                                    <span class="status-green">Connected</span>
+                                </div>
+                                <div class="overlay-channel">Channel: General</div>
+                                <button class="overlay-ptt">PTT</button>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Game Overlay</h3>
+                    <p>Lightweight overlay that stays on top of your games for seamless communication</p>
+                </div>
+                <div class="screenshot-card">
+                    <div class="screenshot-image discord-login">
+                        <div class="login-mockup">
+                            <div class="login-header">Discord Integration</div>
+                            <div class="login-content">
+                                <div class="login-field">
+                                    <label>Discord Token</label>
+                                    <input type="password" placeholder="Enter your Discord token">
+                                </div>
+                                <div class="login-options">
+                                    <label><input type="radio" checked> User Token</label>
+                                    <label><input type="radio"> Bot Token</label>
+                                </div>
+                                <button class="login-btn">Connect to Discord</button>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Discord Login</h3>
+                    <p>Secure authentication with Discord for automatic server discovery and management</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <div class="download-content">
+                <div class="download-info">
+                    <h2>Download Nexus Radio</h2>
+                    <p>Get started with professional voice communication today</p>
+                    <div class="download-features">
+                        <div class="download-feature">
+                            <i class="fas fa-check"></i>
+                            <span>No installation required</span>
+                        </div>
+                        <div class="download-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Self-contained executable</span>
+                        </div>
+                        <div class="download-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Works on any Windows machine</span>
+                        </div>
+                        <div class="download-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Free to use</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="download-box">
+                    <div class="download-card">
+                        <div class="download-header">
+                            <i class="fab fa-windows"></i>
+                            <div>
+                                <h3>Windows Version</h3>
+                                <p>Compatible with Windows 10/11</p>
+                            </div>
+                        </div>
+                        <div class="download-details">
+                            <div class="detail">
+                                <span class="label">Size:</span>
+                                <span class="value">205 MB</span>
+                            </div>
+                            <div class="detail">
+                                <span class="label">Version:</span>
+                                <span class="value">1.0.0</span>
+                            </div>
+                            <div class="detail">
+                                <span class="label">Updated:</span>
+                                <span class="value">Today</span>
+                            </div>
+                        </div>
+                        <a href="https://github.com/yourusername/nexus-radio-website/releases/download/v1.0.0/VCRadioApp.exe" class="download-btn" download>
+                            <i class="fas fa-download"></i>
+                            Download Nexus Radio
+                        </a>
+                        <p class="download-note">
+                            <i class="fas fa-shield-alt"></i>
+                            Virus-free and secure download
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support Section -->
+    <section id="support" class="support">
+        <div class="container">
+            <div class="section-header">
+                <h2>Support & Setup</h2>
+                <p>Get help with installation and configuration</p>
+            </div>
+            <div class="support-grid">
+                <div class="support-card">
+                    <div class="support-icon">
+                        <i class="fas fa-key"></i>
+                    </div>
+                    <h3>Discord Token Setup</h3>
+                    <div class="support-content">
+                        <p><strong>User Token (Recommended):</strong></p>
+                        <ol>
+                            <li>Open Discord in your web browser</li>
+                            <li>Press F12 to open Developer Tools</li>
+                            <li>Go to Application → Local Storage → discord.com</li>
+                            <li>Find "token" and copy its value</li>
+                        </ol>
+                        <p><strong>Bot Token:</strong></p>
+                        <ol>
+                            <li>Visit Discord Developer Portal</li>
+                            <li>Create a new application</li>
+                            <li>Go to Bot section and create a bot</li>
+                            <li>Copy the bot token</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="support-card">
+                    <div class="support-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>System Requirements</h3>
+                    <div class="support-content">
+                        <ul>
+                            <li><strong>OS:</strong> Windows 10/11 (64-bit)</li>
+                            <li><strong>RAM:</strong> 4 GB minimum</li>
+                            <li><strong>Storage:</strong> 300 MB free space</li>
+                            <li><strong>Audio:</strong> Microphone and speakers/headset</li>
+                            <li><strong>Network:</strong> Internet connection</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="support-card">
+                    <div class="support-icon">
+                        <i class="fas fa-question-circle"></i>
+                    </div>
+                    <h3>Troubleshooting</h3>
+                    <div class="support-content">
+                        <p><strong>Common Issues:</strong></p>
+                        <ul>
+                            <li>Ensure your Discord token is valid</li>
+                            <li>Check firewall settings for network access</li>
+                            <li>Verify microphone permissions</li>
+                            <li>Use windowed mode for overlay compatibility</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-broadcast-tower"></i>
+                        <span>Nexus Radio</span>
+                    </div>
+                    <p>Professional voice communication for Discord communities</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Features</h4>
+                    <ul>
+                        <li>Discord Integration</li>
+                        <li>Game Overlay</li>
+                        <li>Push-to-Talk</li>
+                        <li>Multi-Channel</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li>System Requirements</li>
+                        <li>Setup Guide</li>
+                        <li>Troubleshooting</li>
+                        <li>FAQ</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li>Terms of Service</li>
+                        <li>Privacy Policy</li>
+                        <li>License</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Nexus Radio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

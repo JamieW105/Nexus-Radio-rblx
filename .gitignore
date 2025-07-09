@@ -1,0 +1,27 @@
+# Ignore large executable files
+*.exe
+*.msi
+*.zip
+*.7z
+*.rar
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.log
+
+# Ignore build artifacts
+bin/
+obj/
+.vs/
+
+# Ignore user-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
